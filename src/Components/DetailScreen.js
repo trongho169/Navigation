@@ -27,7 +27,7 @@ const DetailScreen = ({ navigation, route })=>{
                   // onPress={() => navigation.navigate('Home')}
                 onPress={() => navigation.goBack()}
                   style={styles.TouchBack}>
-                  <Te style={styles.textStyleBack}>Back</Text>
+                  <Text style={styles.textStyleBack}>Back</Text>
                </TouchableOpacity>
              </View>
             <View style={styles.containerTextTinh}>
